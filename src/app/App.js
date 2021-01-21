@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import { MovieDb } from 'moviedb-promise'
+
+const moviedb = new MovieDb("")
 
 function App() {
   return (
